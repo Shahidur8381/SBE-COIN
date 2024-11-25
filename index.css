@@ -45,3 +45,18 @@ body {
 img {
     border-radius: 15px;
 }
+
+/* Responsive Image for Partner Banner */
+@media (max-width: 768px) {
+    .partner-banner {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 769px) {
+    .partner-banner {
+        width: 75%;
+        height: auto;
+    }
+}
