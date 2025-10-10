@@ -32,8 +32,66 @@ body {
     }
 }
 
+@keyframes tada {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+        transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
 .about-logos {
     animation: customBounce 1.5s infinite;
+}
+
+.tada-animation {
+    animation: tada 2s ease-in-out infinite;
+    transform-origin: center;
+}
+
+@keyframes glowPop {
+
+    0%,
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(0, 255, 255, 0.5),
+            0 0 40px rgba(138, 43, 226, 0.3),
+            0 0 60px rgba(0, 255, 255, 0.2);
+        filter: brightness(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 30px rgba(0, 255, 255, 0.8),
+            0 0 60px rgba(138, 43, 226, 0.6),
+            0 0 90px rgba(0, 255, 255, 0.4);
+        filter: brightness(1.1);
+    }
+}
+
+.hero-logo-animation {
+    animation: glowPop 3s ease-in-out infinite;
+    transition: all 0.3s ease;
 }
 
 /* Hover Effects for SVG Paths */
