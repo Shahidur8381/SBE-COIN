@@ -151,32 +151,34 @@
         </div>
     </section>
 
-    <!-- Dextools Chart Section -->
+    <!-- DexScreener Chart Section -->
     <section id="chart" class="py-16 bg-black">
         <div class="container mx-auto">
             <h2 class="text-4xl lg:text-5xl font-extrabold text-center text-white mb-8">
                 Reaaliaikaiset Kaupankäyntitiedot
             </h2>
             <p class="text-center text-gray-300 mb-8 text-lg">
-                Seuraa SBE Coinin hintaa ja kaupankäyntiä reaaliajassa DEXToolsin avulla
+                Seuraa SBE Coinin hintaa ja kaupankäyntiä reaaliajassa
             </p>
-            <!-- Dextools Embed -->
+            <!-- DexScreener Embed -->
             <div class="w-full max-w-6xl mx-auto p-4">
                 <div class="relative w-full bg-gray-900 rounded-lg overflow-hidden border-4 border-cyan-500 shadow-2xl"
-                    style="padding-bottom: 56.25%; height: 0;">
-                    <iframe id="dextools-widget" title="DEXTools Trading Chart"
-                        src="https://www.dextools.io/widget-chart/en/bnb/pe-light/0x45b1836ca53E5f6B97E33510eE6E35d94201aafa?theme=dark&chartType=2&chartResolution=30&drawingToolbars=false"
+                    style="height: 600px;">
+                    <iframe 
+                        id="dexscreener-embed"
+                        title="DexScreener Trading Chart"
+                        src="https://dexscreener.com/bsc/0x45b1836ca53E5f6B97E33510eE6E35d94201aafa?embed=1&theme=dark&trades=0&info=0"
                         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;">
                     </iframe>
                 </div>
                 <!-- Quick Stats Cards -->
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
                     <div class="bg-gradient-to-br from-cyan-900 to-blue-900 p-6 rounded-lg border border-cyan-400">
-                        <h3 class="text-xl font-bold text-cyan-400 mb-2">📊 DEXTools</h3>
-                        <p class="text-gray-300">Katso yksityiskohtainen kaavio, transaktiot ja likviditeettipooli</p>
-                        <a href="https://www.dextools.io/app/en/bnb/pair-explorer/0x45b1836ca53E5f6B97E33510eE6E35d94201aafa"
+                        <h3 class="text-xl font-bold text-cyan-400 mb-2">📊 DexScreener</h3>
+                        <p class="text-gray-300">Katso reaaliaikainen hinta, kaavio ja kaupankäyntitiedot</p>
+                        <a href="https://dexscreener.com/bsc/0x45b1836ca53E5f6B97E33510eE6E35d94201aafa"
                             target="_blank" class="inline-block mt-4 text-cyan-400 hover:text-cyan-300 underline">
-                            Avaa DEXTools →
+                            Avaa DexScreener →
                         </a>
                     </div>
                     <div class="bg-gradient-to-br from-purple-900 to-pink-900 p-6 rounded-lg border border-purple-400">
