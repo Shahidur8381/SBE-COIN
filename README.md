@@ -1,27 +1,23 @@
-# 🪙 SBE Coin
+# 🪙 SBE Coin ($SBE)
 
 SBE Coin is a blockchain-powered digital currency focused on fast, secure, and efficient international transactions. Built on the Binance Smart Chain (BSC), the project aims to simplify global payments while reducing the costs and delays associated with traditional banking systems.
 
-This repository contains the complete frontend source code for the official SBE Coin website, developed using modern web technologies for performance, responsiveness, and scalability.
+This repository contains the complete frontend source code for the official SBE Coin launch site, built with React, TypeScript, and Vite.
 
 <div align="center">
-  <img src="public/assets/logo.png" alt="SBE Coin" width="220" style="border-radius: 16px;" />
+  <img src="https://sbecoin.netlify.app/images/sbelogo.jpg" alt="SBE Coin" width="220" style="border-radius: 16px;" />
   <p><em>Fast transactions. Global access. Modern digital finance.</em></p>
 </div>
 
 ---
 
-# ✨ What is SBE Coin?
+# ✨ Why SBE Coin?
 
-SBE Coin is a next-generation cryptocurrency designed for international commerce and secure digital payments. The project focuses on:
-
-- ⚡ Fast blockchain transactions
-- 🔒 Secure and transparent smart contract technology
-- 🌍 Global usability for businesses and individuals
-- 💸 Lower transfer fees compared to traditional banking
-- 🤝 Easy accessibility for worldwide users
-
-SBE Coin aims to provide a reliable decentralized financial solution for both personal and commercial use cases.
+- **Fast & secure** – Optimized blockchain transactions with decentralized security.
+- **Global payments** – Designed for international transfers and borderless finance.
+- **Community driven** – Transparent ecosystem powered by blockchain technology.
+- **Low transaction costs** – Reduced fees compared to traditional banking systems.
+- **Future-ready** – Built for scalable digital commerce and Web3 integration.
 
 ---
 
@@ -31,8 +27,6 @@ SBE Coin aims to provide a reliable decentralized financial solution for both pe
 - **Trade on PancakeSwap**: https://pancakeswap.finance/
 - **Live Chart (DexScreener)**: https://dexscreener.com/
 - **BscScan Contract**: https://bscscan.com/
-- **Telegram Community**: https://t.me/
-- **X (Twitter)**: https://x.com/
 
 ---
 
@@ -40,8 +34,8 @@ SBE Coin aims to provide a reliable decentralized financial solution for both pe
 
 - **Frontend**: React + TypeScript + Vite
 - **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Blockchain Network**: Binance Smart Chain (BSC)
+- **Animation**: Framer Motion
+- **Blockchain**: Binance Smart Chain (BSC)
 - **Deployment**: Netlify
 
 ---
@@ -52,13 +46,13 @@ SBE Coin aims to provide a reliable decentralized financial solution for both pe
 # Install dependencies
 npm install
 
-# Start development server
+# Start the development server
 npm run dev
 
 # Build for production
 npm run build
 
-# Preview production build
+# Preview the production build
 npm run preview
 ```
 
@@ -69,13 +63,13 @@ npm run preview
 ```bash
 SBE-COIN/
 ├─ public/
-│  └─ assets/            # Static assets and icons
+│  └─ assets/        # Static assets and icons
 ├─ src/
-│  ├─ components/        # Reusable UI components
-│  ├─ pages/             # Main pages and sections
-│  ├─ assets/            # Images and branding assets
-│  ├─ styles/            # Global styling files
-│  └─ utils/             # Utility/helper functions
+│  ├─ components/    # Reusable UI components
+│  ├─ pages/         # Main route-level pages
+│  ├─ assets/        # Images and branding assets
+│  ├─ styles/        # Global styles
+│  └─ utils/         # Utility/helper functions
 ├─ README.md
 ├─ package.json
 └─ vite.config.ts
@@ -87,32 +81,32 @@ SBE-COIN/
 
 ## 🔒 Security
 
-SBE Coin utilizes blockchain technology to ensure transparency and security for every transaction. Each transaction is recorded permanently on-chain, making manipulation extremely difficult.
+SBE Coin leverages blockchain technology to provide secure, transparent, and tamper-resistant transactions across the network.
 
 ## ⚡ Fast Transactions
 
-The platform is optimized for quick transfers, making it suitable for:
+Built for quick and efficient transfers suitable for:
 
 - Personal remittances
-- Cross-border payments
-- Business transactions
+- Cross-border transactions
+- Online payments
 - Digital commerce
 
 ## 🌍 Global Accessibility
 
-SBE Coin is designed for international use, enabling seamless digital transactions across different countries and markets.
+The platform is designed for worldwide usability, enabling users from different countries to transact seamlessly.
 
 ## 💰 Cost Efficiency
 
-Users can reduce:
+SBE Coin helps reduce:
 
-- Bank transfer fees
-- Currency conversion costs
+- Banking transfer fees
 - International transaction delays
+- Currency conversion overhead
 
-## 🕶️ Privacy Focus
+## 🕶️ Privacy & Transparency
 
-SBE Coin supports confidential blockchain transactions while maintaining decentralized transparency.
+Combining decentralized transparency with blockchain privacy mechanisms for a safer financial ecosystem.
 
 ---
 
@@ -120,31 +114,31 @@ SBE Coin supports confidential blockchain transactions while maintaining decentr
 
 ## 🛒 E-commerce Payments
 
-Online stores can integrate SBE Coin as a payment option for faster and more secure digital transactions.
+Merchants can integrate SBE Coin into online stores for secure crypto payments.
 
 ## 🌍 International Trade
 
-Businesses can use SBE Coin for global payments and cross-border transfers while reducing risks related to exchange rates and banking delays.
+Businesses can use SBE Coin for global settlements and fast cross-border transactions.
 
 ## 👨‍👩‍👧 Personal Transfers
 
-Users can quickly send funds worldwide to family members, friends, or clients.
+Users can instantly send digital assets worldwide with minimal fees.
 
 ---
 
-# 📊 Real-Time Trading Support
+# 📊 Trading & Ecosystem
 
-The SBE Coin website includes integrations and links for:
+The SBE Coin ecosystem supports:
 
-- 📈 Real-time price tracking
+- 📈 Real-time market tracking
 - 📉 Live trading charts
-- 🔄 PancakeSwap trading access
-- 📜 Verified smart contract information
+- 🔄 Decentralized exchange access
+- 📜 Smart contract verification
 
 Supported Platforms:
 
-- DexScreener
 - PancakeSwap
+- DexScreener
 - BscScan
 
 ---
@@ -152,30 +146,39 @@ Supported Platforms:
 # 🛡️ Blockchain Infrastructure
 
 - ✅ Binance Smart Chain integration
-- ✅ Verified smart contract
 - ✅ Decentralized trading support
-- ✅ Public blockchain transparency
 - ✅ Wallet compatibility
+- ✅ Transparent on-chain transactions
+- ✅ Smart contract ecosystem
 
 ---
 
 # 🌐 Social Links
 
-- Telegram: https://t.me/
-- X (Twitter): https://x.com/
+- Telegram: https://t.me/shahidur8381
+- TikTok: https://www.tiktok.com/@shahidur8381
+- X (Twitter): https://x.com/shahidur8381
+- Instagram: https://www.instagram.com/shahidur8381
+- Reddit: https://www.reddit.com/user/shahidur8381
+
+---
+
+# 👨‍💻 Built By
+
+Built with ❤️ by **Shawon**
+
+- Portfolio: https://shahidur.me
+- GitHub: https://github.com/Shahidur8381
 
 ---
 
 # 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
+Contributions, ideas, and improvements are welcome. Please ensure your code is formatted and linted before submitting pull requests.
 
 ```bash
-# Run linter
 npm run lint
 ```
-
-Please ensure your code follows the existing project structure and formatting standards before submitting pull requests.
 
 ---
 
